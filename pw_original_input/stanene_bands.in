@@ -1,0 +1,56 @@
+ &control
+    calculation       = 'bands'
+    restart_mode      = 'from_scratch'
+    prefix            = 'tin'
+    pseudo_dir        = '/gporq2/scratch_0/usr/pulci/paola/pseudo'
+    outdir            = './tmp/'
+    forc_conv_thr     = 1.0d-3
+    etot_conv_thr     = 1.0d-5
+    nstep             = 100
+    verbosity         = 'high'
+    wf_collect=.true.
+ /
+ &system
+    ibrav             = 4
+    celldm(1)         =  8.83
+    celldm(3)         =  6.0
+    nat               =  2
+    ntyp              =  1
+    !nosym             = .true.
+    ecutwfc           =  100
+    ecutrho   = 600
+    nbnd              = 60
+    !input_dft         = 'vdW-DF'
+    !occupations       = 'smearing'
+    smearing          = 'fermi-dirac'
+    degauss           = 0.0036749326
+    !force_symmorphic = .true.
+    lspinorb=.true.
+    noncolin=.true.
+    starting_magnetization=0.0
+ /
+ &electrons
+    !diago_thr_init=1.0e-2,
+    electron_maxstep = 100,
+    !diagonalization='cg'
+    mixing_mode = 'plain'
+    mixing_beta = 0.7
+    conv_thr =  1.0d-8,
+    !startingpot='file',
+    !startingwfc='atomic',
+ /
+&ions
+    ion_dynamics='bfgs',
+    upscale=10
+/
+ATOMIC_SPECIES
+Sn     118.71  Sn.rel-pbe-dn-rrkjus_psl.0.2.UPF
+ATOMIC_POSITIONS (alat)
+Sn       0.500000000   0.288675100  -0.091942213
+Sn       0.000000000   0.577350300   0.091942213
+K_POINTS {tpiba_b}
+4
+0.0000 0.0000 0.0000 90
+0.6666666667 0.0000 0.0000 90
+0.5000 0.2886751 0.0000 90
+0.0000 0.0000 0.0000 30
