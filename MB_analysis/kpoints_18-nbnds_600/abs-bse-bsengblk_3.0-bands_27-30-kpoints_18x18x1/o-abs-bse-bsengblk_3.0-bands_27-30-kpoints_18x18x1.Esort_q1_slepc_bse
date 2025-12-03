@@ -1,0 +1,75 @@
+#                                                                     
+#  **    **    **     ****     ****  ******     *******               
+# //**  **    ****   /**/**   **/** /*////**   **/////**              
+#  //****    **//**  /**//** ** /** /*   /**  **     //**             
+#   //**    **  //** /** //***  /** /******  /**      /**             
+#    /**   **********/**  //*   /** /*//// **/**      /**             
+#    /**  /**//////**/**   /    /** /*    /**//**     **              
+#    /**  /**     /**/**        /** /*******  //*******               
+#    //   //      // //         //  ///////    ///////                
+#                                                                     
+# Version 5.3.0 Revision 23927 Hash (prev commit) 1730222ea           
+#                        Branch is                                    
+#  MPI+GPU+CUDA+CUDAF+OpenMP+SLK+SLEPC+HDF5_MPI_IO Build              
+#                http://www.yambo-code.eu                             
+#
+# Sorted Interacting Energies @ Q(1):  0.707106769     0.707106769      0.00000000    [q->0 direction]
+#
+# [GEN] GF Energies                               : Perdew, Burke & Ernzerhof(X)+Perdew, Burke & Ernzerhof(C)
+# [GEN] Green`s Function                          : Resonant
+#
+# [GEN] Gauge                                     : Length
+# [GEN] [r,Vnl] included                          : yes
+#
+# DIP band range                                  :  27  30
+# DIP band range limits                           :  30  27
+# DIP e/h energy range                            :  -1.00000000     -1.00000000    [eV]
+# RL vectors in the sum                           :  12961
+# [r,Vnl] included                                : yes
+# Bands ordered                                   : no
+# Direct v evaluation                             : no
+# Approach used                                   : G-space v
+# Dipoles computed                                : R V P [G-space]
+# Wavefunctions                                   : Perdew, Burke & Ernzerhof(X)+Perdew, Burke & Ernzerhof(C)
+#
+#
+# [K] Identifier                                  :   8732
+# [K] Dimension                                   :  1296
+# [K] Bands                                       :  27  30
+# [K] Exchange res                                : yes
+# [K] Correlation res                             : yes
+# [K] Kernel`s coupling                           : no
+# [K] Exchange cpl                                : no
+# [K] Correlation cpl                             : no
+# [K] W interaction is bare                       : no
+# [K] ALDA kernel in R-space                      : no
+# [K] RL vectors exchange                         :  20051
+# [K] RL vectors correlation                      :   433
+# [K] E/h energy range                            :  -1.00000000     -1.00000000    [eV]
+# [K] Coupling range                              :   100.000000      100.000000    [o/o]
+# [W] Interaction is diagonal                     : no
+# [W] Matrix size                                 :  1819
+# [W] Bands                                       :     1   600
+# [W] e/h energy range                            :  -1.00000000     -1.00000000    [eV]
+# [W] Poles                                       :   100.000000    [o/o]
+# [W] RL vectors in the sum                       :  23133
+# [W] [r,Vnl] included                            : yes
+# [W] Field direction                             :  0.707106756E-5  0.707106756E-5   0.00000000   
+# [W] Coulomb Cutoff                              : slab z
+# [W] Hxc Kernel                                  : HARTREE
+# [RIM] RL components col                         :  109
+# [RIM] Random points col                         :   5000000
+# [SOC] Perturbative SOC                          : no
+# [X] Response Kind                               : BAR
+#
+#
+#    E [eV]             N_deg              alpha
+#
+        0.121531           2.000000           0.335310E-8
+        0.122732           2.000000           0.13924E-10
+        0.125556           4.000000           0.475706E-6
+        0.485145           2.000000           0.74313E-09
+        0.486944           2.000000           0.635397E-7
+        0.520623           3.000000           0.87985E-10
+        0.551372           4.000000           0.97655E-13
+        0.561782           1.000000           0.690573E-7
